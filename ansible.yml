@@ -1,5 +1,5 @@
 ---
-- name: system information
+- name: system informations
   hosts: node1,node2,node3
   tasks:
    - name: system information
