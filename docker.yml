@@ -1,0 +1,10 @@
+---
+- name: installation of httpd
+  hosts: all
+  tasks:
+   - name: Just installation
+	 command: yum install -y docker
+   - name: Just installation
+	 command: docker run -dit --name gopi -p 80:80 httpd
+   - name: Just installation
+	 command: service docker start
